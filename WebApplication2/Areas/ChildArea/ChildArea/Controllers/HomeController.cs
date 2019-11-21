@@ -10,7 +10,7 @@ namespace ChildArea.Controllers
     {
         public ActionResult Index()
         {
-            return View();
+            return View("~/Areas/ChildArea/ChildArea/Views/Home/Index.cshtml");
         }
 
         public ActionResult About()
